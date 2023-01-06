@@ -18,4 +18,4 @@ ts-node index.ts
 
 ```
 
-You have also in **graphs pictures** some screens in **Grafana**, and **InfluxDB Data Explorer**
+You have also in **graphs pictures** some screens in **Grafana**, and **InfluxDB Data Explorer**.
