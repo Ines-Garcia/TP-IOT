@@ -15,6 +15,7 @@
     "@influxdata/influxdb-client": "^1.33.0",
     "@influxdata/influxdb-client-apis": "^1.33.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
   }
 }
