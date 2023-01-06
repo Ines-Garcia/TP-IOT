@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "name": "influxdb-node-app",
+  "version": "1.0.0",
+  "description": "API for connecting influxdb in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IG",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.0",
+    "@influxdata/influxdb-client-apis": "^1.33.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

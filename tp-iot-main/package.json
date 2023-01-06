@@ -1,0 +1,25 @@
+{
+	"name": "tp-iot",
+	"version": "1.0.0",
+	"description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+	"main": "sensors.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"temperature": "node temperature.js",
+		"humidity": "node humidity.js",
+		"sensors": "concurrently --kill-others \"npm run temperature\" \"npm run humidity\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git4all.com/ErwanRuiz/tp-iot.git"
+	},
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.2.1"
+	},
+	"devDependencies": {
+		"concurrently": "^7.6.0"
+	}
+}
